@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.Cache", "Greg.Lib.Cache\Greg.Lib.Cache.csproj", "{D87D4CFC-575F-45CF-96CE-E155403396AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.Cache", "ClassLibrary1\Greg.Lib.Cache.csproj", "{803499D8-1868-4727-89B3-EDE1E3BA926B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D87D4CFC-575F-45CF-96CE-E155403396AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D87D4CFC-575F-45CF-96CE-E155403396AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D87D4CFC-575F-45CF-96CE-E155403396AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D87D4CFC-575F-45CF-96CE-E155403396AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
