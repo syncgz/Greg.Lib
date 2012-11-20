@@ -1,7 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.Cache", "ClassLibrary1\Greg.Lib.Cache.csproj", "{803499D8-1868-4727-89B3-EDE1E3BA926B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.Cache.MemoryCache", "ClassLibrary1\Greg.Lib.Cache.MemoryCache.csproj", "{803499D8-1868-4727-89B3-EDE1E3BA926B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.Cache.MemoryCache.Test", "Greg.Lib.Cache.MemoryCache.Test\Greg.Lib.Cache.MemoryCache.Test.csproj", "{56AD6EEF-69A2-4B55-9B36-6AB75146ADEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.CodeSnippet", "Greg.Lib.CodeSnippet\Greg.Lib.CodeSnippet.csproj", "{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.CodeSnippet.Test", "Greg.Lib.CodeSnippet.Test\Greg.Lib.CodeSnippet.Test.csproj", "{01277301-D3F4-4207-96E5-79A8A09440F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Lib.LazyLoader", "Greg.Lib.LazyLoader\Greg.Lib.LazyLoader.csproj", "{947ABADE-037B-4520-BC13-031DE4A3DFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +21,22 @@ Global
 		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{803499D8-1868-4727-89B3-EDE1E3BA926B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AD6EEF-69A2-4B55-9B36-6AB75146ADEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AD6EEF-69A2-4B55-9B36-6AB75146ADEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AD6EEF-69A2-4B55-9B36-6AB75146ADEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AD6EEF-69A2-4B55-9B36-6AB75146ADEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01277301-D3F4-4207-96E5-79A8A09440F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01277301-D3F4-4207-96E5-79A8A09440F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01277301-D3F4-4207-96E5-79A8A09440F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01277301-D3F4-4207-96E5-79A8A09440F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947ABADE-037B-4520-BC13-031DE4A3DFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947ABADE-037B-4520-BC13-031DE4A3DFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947ABADE-037B-4520-BC13-031DE4A3DFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947ABADE-037B-4520-BC13-031DE4A3DFDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

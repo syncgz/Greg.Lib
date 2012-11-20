@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{803499D8-1868-4727-89B3-EDE1E3BA926B}</ProjectGuid>
+    <ProjectGuid>{581EF2CE-5EE9-4EAF-A7CF-AD293B985793}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Greg.Lib.Cache</RootNamespace>
-    <AssemblyName>Greg.Lib.Cache</AssemblyName>
+    <RootNamespace>Greg.Lib.CodeSnippet</RootNamespace>
+    <AssemblyName>Greg.Lib.CodeSnippet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="NewFolder1\GenericConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
