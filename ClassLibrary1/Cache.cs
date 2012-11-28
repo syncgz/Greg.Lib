@@ -43,7 +43,13 @@ namespace Greg.Lib.Cache.MemoryCache
             if(GetInstance().Contains(initializer.GetName()) == false)
             {
                 GetInstance().Add(initializer.GetName(), initializer.GetObject(), new CacheItemPolicy());
+            
             }
+        }
+
+        public static bool Contains(String key)
+        {
+            return _cache.Contains(key);
         }
     }
 }
